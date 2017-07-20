@@ -8,9 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "postinstall": "webpack -p",
-    "start": "webpack-dev-server --inline --hot"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "postinstall": "webpack -p"
   },
   "author": "Caitlyn Tetmeyer",
   "license": "ISC",
@@ -33,6 +32,7 @@
     "redux-form": "^5.0.1",
     "redux-thunk": "^2.2.0",
     "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5",
     "youtube-api-search": "0.0.5"
   }
 }
