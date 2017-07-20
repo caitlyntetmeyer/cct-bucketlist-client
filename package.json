@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "postinstall": "webpack -p",
-    "start": "node server.js"
+    "start": "webpack-dev-server --inline --hot"
   },
   "author": "Caitlyn Tetmeyer",
   "license": "ISC",
