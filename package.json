@@ -32,6 +32,7 @@
     "redux": "^3.0.4",
     "redux-form": "^5.0.1",
     "redux-thunk": "^2.2.0",
+    "webpack": "^1.15.0",
     "youtube-api-search": "0.0.5"
   }
 }
